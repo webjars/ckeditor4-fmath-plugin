@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>ckeditor4-fmath-editor</artifactId>
-    <version>3.3-SNAPSHOT</version>
+    <version>3.3</version>
     <name>CKEditor FMath Plugin</name>
     <description>WebJar for CKEditor FMath PLugin</description>
     <url>http://webjars.org</url>
