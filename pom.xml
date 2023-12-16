@@ -49,9 +49,9 @@
     </licenses>
 
     <scm>
-        <url>http://github.com/webjars/ckeditor4-fmath-editor</url>
-        <connection>scm:git:https://github.com/webjars/ckeditor4-fmath-editor.git</connection>
-        <developerConnection>scm:git:https://github.com/webjars/ckeditor4-fmath-editor.git</developerConnection>
+        <url>http://github.com/webjars/ckeditor4-fmath-plugin</url>
+        <connection>scm:git:https://github.com/webjars/ckeditor4-fmath-plugin.git</connection>
+        <developerConnection>scm:git:https://github.com/webjars/ckeditor4-fmath-plugin.git</developerConnection>
         <tag>HEAD</tag>
     </scm>
     
