@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>ckeditor4-fmath-editor</artifactId>
-    <version>3.3</version>
+    <version>3.3-SNAPSHOT</version>
     <name>CKEditor FMath Plugin</name>
     <description>WebJar for CKEditor FMath PLugin</description>
     <url>http://webjars.org</url>
@@ -49,9 +49,9 @@
     </licenses>
 
     <scm>
-        <url>http://github.com/sakaicontrib/ckeditor4-fmath-editor</url>
-        <connection>scm:git:https://github.com/sakaicontrib/ckeditor4-fmath-editor.git</connection>
-        <developerConnection>scm:git:https://github.com/sakaicontrib/ckeditor4-fmath-editor.git</developerConnection>
+        <url>http://github.com/webjars/ckeditor4-fmath-editor</url>
+        <connection>scm:git:https://github.com/webjars/ckeditor4-fmath-editor.git</connection>
+        <developerConnection>scm:git:https://github.com/webjars/ckeditor4-fmath-editor.git</developerConnection>
         <tag>HEAD</tag>
     </scm>
     
