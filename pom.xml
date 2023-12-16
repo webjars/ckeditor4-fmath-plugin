@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>ckeditor4-fmath-editor</artifactId>
-    <version>3.3-SNAPSHOT</version>
+    <version>3.3</version>
     <name>CKEditor FMath Plugin</name>
     <description>WebJar for CKEditor FMath PLugin</description>
     <url>http://webjars.org</url>
@@ -52,7 +52,7 @@
         <url>http://github.com/webjars/ckeditor4-fmath-plugin</url>
         <connection>scm:git:https://github.com/webjars/ckeditor4-fmath-plugin.git</connection>
         <developerConnection>scm:git:https://github.com/webjars/ckeditor4-fmath-plugin.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>ckeditor4-fmath-editor-3.3</tag>
     </scm>
     
     <dependencies>
@@ -89,13 +89,13 @@
                         <goals><goal>run</goal></goals>
                         <configuration>
                             <target>
-                                <echo message="download archive"/>
-                                <get src="${upstream.url}" dest="${project.build.directory}/${project.artifactId}.zip"/>
-                                <echo message="unzip archive"/>
-                                <unzip src="${project.build.directory}/${project.artifactId}.zip" dest="${project.build.directory}"/>
-                                <echo message="moving resources"/>
+                                <echo message="download archive" />
+                                <get src="${upstream.url}" dest="${project.build.directory}/${project.artifactId}.zip" />
+                                <echo message="unzip archive" />
+                                <unzip src="${project.build.directory}/${project.artifactId}.zip" dest="${project.build.directory}" />
+                                <echo message="moving resources" />
                                 <move todir="${destDir}">
-                                    <fileset dir="${project.build.directory}/FMathEditor-${version.unsnapshot}/FMathEditor"/>
+                                    <fileset dir="${project.build.directory}/FMathEditor-${version.unsnapshot}/FMathEditor" />
                                 </move>
                             </target>
                         </configuration>
